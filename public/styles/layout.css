@@ -13,12 +13,54 @@ html {
 /*
  * Global layout stuff
  */
+/*/////////////////BODY////////////////////*/
 
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro';
 }
+
+nav {
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding: 1.5em; /* Adjust the padding value if needed */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: space-between;
+  position: fixed /* Position an element relative to the browser window, regardless of scrolling.*/
+}
+
+nav .logo {
+  font-family: 'Bungee', sans-serif;
+  color: #da8507;
+}
+
+nav .right-content {
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: flex-end; /* Align the elements to the right */
+  font-family: 'Bungee', sans-serif;
+  color:  #da8507;
+}
+
+
+nav i {
+  color: orange;
+  display: block;
+  margin-right: 2em;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: inherit;
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
