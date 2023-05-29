@@ -27,6 +27,8 @@
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
+
+
 </head>
 
 <body>
@@ -39,16 +41,16 @@
     </div>
   </nav>
   <header>
-    <div class="avatar">
+    <div class="avatar1">
       <img src="/images/profile-hex.png">
     </div>
     <br>
     <div>
-      <h2 class="name">Your Name</h2>
+      <h2 class="name">RAD</h2>
     </div>
   </header>
   <!-- Page-specific (main) content here -->
-  <main class="container">
+  <main class="container1">
 
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
@@ -62,12 +64,32 @@
       </form>
     </section>
 
+    <main class="container2">
+      <article class="tweet">
+        <header>
+          <div>
+            <div class="tweet-info"></div>
+            <span class="avatar"></span>
+            <span class="name">James</span>
+            <span class="username">@jamesthefamous</span>
 
-  </main>
+          </div>
+          <div class="tweet-content">
+            <p class="tweet-text"> First tweet of the day!! Enjoy!! </p>
+          </div>
+        </header>
+        <footer>
+          <span class="timestamp">3 hours ago</span>
+          <div class="actions">
+            <i class="far fa-comment"></i>
+            <i class="fas fa-retweet"></i>
+            <i class="far fa-heart"></i>
+          </div>
+        </footer>
+      </article>
+    </main>
 
-
-  </main>
-  <script src="scripts/composer-char-counter.js"></script>
+    <script src="scripts/composer-char-counter.js"></script>
 </body>
 
 </html>
