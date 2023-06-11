@@ -169,3 +169,10 @@
   transform: scale(1.2);
 }
 
+#error-container {
+  display: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
